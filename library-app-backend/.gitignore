@@ -1,0 +1,13 @@
+# Node
+node_modules/
+.env
+
+# IDE / Workspace
+.metadata/
+.idea/
+.vscode/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
