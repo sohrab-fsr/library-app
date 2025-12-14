@@ -18,6 +18,18 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/books", bookRoutes);
 
+// NEW: root route for Render home page
+app.get("/", (req, res) => {
+  res.json({
+    status: "ok",
+    message: "Library App backend is running.",
+    version: "Final Release",
+    timestamp: new Date().toISOString()
+  });
+});
+
+
+
 const PORT = process.env.PORT || 3000;
 const MONGO_URI = process.env.MONGO_URI;
 

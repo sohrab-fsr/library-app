@@ -21,7 +21,7 @@ function App() {
         </Routes>
       </main>
       <footer>
-        Library App — Second Release · Frontend + Backend Integration
+        Library App — Final Release - 2025
       </footer>
     </div>
   );
