@@ -3,7 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 const AuthContext = createContext(null);
 
 // 🔧 Change this if your backend runs on a different URL/port
-const API_BASE_URL = "https://library-app-vvpw.onrender.com/";
+const API_BASE_URL = "https://library-app-vvpw.onrender.com";
 
 export function AuthProvider({ children }) {
   const [token, setToken] = useState(
